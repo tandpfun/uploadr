@@ -1,0 +1,14 @@
+body {
+  background: rgb(16, 23, 43);
+  background: linear-gradient(45deg, rgba(16, 23, 43, 1) 38%, rgba(47, 19, 77, 1) 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
